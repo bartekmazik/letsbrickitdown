@@ -20,7 +20,7 @@ const Hero = () => {
             <MapPin width={40} height={40} /> UE Katowice
           </div>
         </div>
-        <Button text="INFORMACJE" className="text-2xl z-100" />
+        <Button text="INFORMACJE" className="text-2xl z-50" />
       </div>
       {/*Right container */}
       <div className="w-1/2 h-full bg-purpleprimary">tu bedzie obrazek</div>
