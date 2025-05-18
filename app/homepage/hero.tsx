@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative h-[90vh] border-b-4 flex flex-row justify-between items-start">
+    <section className="relative h-[100vh] pt-[10vh] border-b-4 flex flex-row justify-between items-start">
       {/*Left container */}
       <div className="w-1/2 h-full bg-greenprimary border-r-4 p-12 pb-24 flex flex-col items-start justify-between">
         <h1 className="text-7xl">Zbudujmy coś razem</h1>

@@ -75,7 +75,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.nav
-      className="w-full sticky h-[10vh] bg-whiteprimary border-b-4 flex flex-row items-center justify-between px-8"
+      className="w-full fixed z-100 h-[10vh] bg-whiteprimary border-b-4 flex flex-row items-center justify-between px-8"
       initial="closed"
       animate={isOpen ? "opened" : "closed"}
     >
