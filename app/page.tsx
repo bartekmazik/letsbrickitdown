@@ -1,5 +1,5 @@
 "use client";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import Hero from "./homepage/hero";
 import { useRef } from "react";
 import Zones from "./homepage/zones";
@@ -8,7 +8,7 @@ import Location from "./homepage/location";
 import Partners from "./homepage/partners";
 
 const Homepage = () => {
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
 
   const ref = useRef(null);
 
