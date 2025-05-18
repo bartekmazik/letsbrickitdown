@@ -7,6 +7,7 @@ const About = () => {
       <div className="border-b-4 p-12 h-1/2 flex flex-col bg-yellowprimary  gap-10">
         <h1 className="text-4xl  ">Wydarzenie</h1>
         <p>
+          {`
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -24,7 +25,7 @@ const About = () => {
           popularised in the 1960s with the release of Letraset sheets
           containing Lorem Ipsum passages, and more recently with desktop
           publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
+          Ipsum.`}
         </p>
       </div>
       <div className="h-1/2 bg-purpleprimary grid grid-cols-3 text-white ">

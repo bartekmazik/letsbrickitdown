@@ -5,6 +5,7 @@ import { useRef } from "react";
 import Zones from "./homepage/zones";
 import About from "./homepage/about";
 import Location from "./homepage/location";
+import Partners from "./homepage/partners";
 
 const Homepage = () => {
   const { scrollYProgress } = useScroll();
@@ -24,6 +25,9 @@ const Homepage = () => {
       </div>
       <div ref={ref}>
         <Location />
+      </div>
+      <div ref={ref}>
+        <Partners />
       </div>
     </motion.section>
   );

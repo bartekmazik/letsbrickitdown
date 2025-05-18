@@ -66,7 +66,7 @@ const Sidebar = ({ setIsOpen }: { setIsOpen: (value: boolean) => void }) => {
         </Link>
       </div>
 
-      <p className="text-center">Let's Brick It Down 2025©</p>
+      <p className="text-center">{`Let's Brick It Down 2025©`}</p>
     </motion.div>
   );
 };
