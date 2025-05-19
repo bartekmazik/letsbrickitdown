@@ -10,7 +10,7 @@ const Zone = ({
   content: string;
 }) => {
   return (
-    <div className={`${className}  border-4 drop-shadow-big h-full p-4`}>
+    <div className={`${className}  border-4 drop-shadow-big h-full p-4 py-8`}>
       <h2 className="text-xl pb-4">{title}</h2>
       <p className="text-sm font-light overflow-hidden "> {content}</p>
     </div>
@@ -19,9 +19,9 @@ const Zone = ({
 
 const Zones = () => {
   return (
-    <section className="h-screen w-screen border-b-4 p-12 ">
+    <section className="min-h-[90vh] sm:max-h-[90vh] w-screen border-b-4 p-8 sm:p-12 ">
       <h1 className="text-4xl pb-20">Strefy wydarzenia</h1>
-      <div className="grid grid-cols-3 h-2/3 w-full gap-8">
+      <div className="flex flex-col sm:grid grid-cols-3 h-2/3 w-full gap-8">
         <Zone
           className="bg-yellowprimary"
           title="STREFA WYSTAWCÓW"

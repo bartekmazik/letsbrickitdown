@@ -21,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased ${poppins.className} font-[700] `}>
+      <body
+        className={`antialiased ${poppins.className} font-[700] max-w-screen `}
+      >
         <Navbar />
         {children}
         <Footer />
