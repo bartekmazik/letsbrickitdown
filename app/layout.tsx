@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-
-import { headers } from "next/headers";
+import { FooterProvider } from "./components/footer";
 
 const poppins = Poppins({
   weight: ["500", "700"],
@@ -21,16 +19,14 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersData = await headers();
-  const pathname = headersData.get("x-next-url") || "/";
   return (
     <html lang="en">
       <body
-        className={`antialiased ${poppins.className} font-[700] max-w-screen `}
+        className={`antialiased ${poppins.className} font-[700] min-h-screen flex flex-col justify-between max-w-screen `}
       >
         <Navbar />
         {children}
-        {pathname !== "/" && <Footer />}
+        <FooterProvider />
       </body>
     </html>
   );

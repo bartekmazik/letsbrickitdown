@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Hero from "./homepage/hero";
-import { useRef } from "react";
+
 import Zones from "./homepage/zones";
 import About from "./homepage/about";
 import Location from "./homepage/location";

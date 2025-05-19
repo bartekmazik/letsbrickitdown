@@ -6,7 +6,7 @@ const About = () => {
     <div className="min-h-screen sm:min-h-[90vh]  sm:h-[90vh] w-screen border-b-4  flex flex-col justify-between ">
       <div className="border-b-4 p-8 py-18 sm:py-auto sm:p-12 h-1/2 flex flex-col bg-yellowprimary  gap-10">
         <h1 className="text-4xl  ">Wydarzenie</h1>
-        <p className="font-thin">
+        <p className="text-sm font-thin pb-4 overflow-hidden break-words">
           {`
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

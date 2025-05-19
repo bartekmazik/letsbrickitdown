@@ -1,10 +1,23 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 import React from "react";
+
+{
+  /*Footer provider secures homepage from double footer. Need this to use scroll snap type mandatory on homepage correctly */
+}
+export const FooterProvider = () => {
+  const pathname = usePathname();
+  return <>{pathname !== "/" ? <Footer /> : <></>}</>;
+};
 
 const Footer = () => {
   return (
-    <div className="relative w-screen sm:h-[25vh] px-8 sm:px-12 py-4 bg-purpleprimary text-white border-black border-t-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+    <div
+      className={`relative w-screen sm:h-[25vh] px-8 sm:px-12 py-4 bg-purpleprimary text-white border-black border-t-4 flex flex-col sm:flex-row items-start sm:items-center overflow-y-hidden justify-between gap-6`}
+    >
       {/*Links to pages */}
       <div className="flex flex-col gap-2 text-xl sm:text-lg font-thin ">
         <Link
@@ -77,7 +90,7 @@ const Footer = () => {
       </div>
 
       {/* Footer copyright */}
-      <div className="absolute bottom-0 left-0 w-full text-center text-xs sm:text-sm font-light py-1">
+      <div className="absolute bottom-0 left-0 w-full text-center text-xs sm:text-sm font-light pt-1">
         Bartłomiej Mazik 2025©
       </div>
     </div>
