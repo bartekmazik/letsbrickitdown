@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="relative w-screen sm:h-[25vh] px-8 sm:px-12 py-4 bg-purpleprimary text-white border-black border-t-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
       {/*Links to pages */}
-      <div className="flex flex-col gap-2 text-xl font-thin ">
+      <div className="flex flex-col gap-2 text-xl sm:text-lg font-thin ">
         <Link
           href="/"
           className="transition duration-200 hover:text-greenprimary"

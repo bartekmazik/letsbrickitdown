@@ -6,28 +6,28 @@ import Zones from "./homepage/zones";
 import About from "./homepage/about";
 import Location from "./homepage/location";
 import Partners from "./homepage/partners";
+import Footer from "./components/footer";
 
 const Homepage = () => {
-  // const { scrollYProgress } = useScroll();
-
-  const ref = useRef(null);
-
   return (
-    <motion.section>
-      <div ref={ref}>
+    <motion.section className="sm:h-screen sm:overflow-y-scroll sm:snap-y sm:snap-mandatory scroll-smooth no-scrollbar ">
+      <div className="snap-end ">
         <Hero />
       </div>
-      <div ref={ref}>
+      <div className="snap-end">
         <About />
       </div>
-      <div ref={ref}>
+      <div className="snap-end ">
         <Zones />
       </div>
-      <div ref={ref}>
+      <div className="snap-end ">
         <Location />
       </div>
-      <div ref={ref}>
+      <div className="snap-end ">
         <Partners />
+      </div>
+      <div className="snap-end ">
+        <Footer />
       </div>
     </motion.section>
   );

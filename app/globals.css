@@ -11,6 +11,16 @@
   --drop-shadow-big: 12px 12px 0 #333333;
 }
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 body {
   background: var(--color-whiteprimary);
   color: var(--color-blackprimary);
