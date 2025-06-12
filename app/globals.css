@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-greenprimary: #1da98d;
-  --color-redprimary: #dc1667;
+  --color-greenprimary: #8ed4c6;
+  --color-redprimary: #ed85b0;
   --color-purpleprimary: #802bff;
-  --color-yellowprimary: #ffc02b;
-  --color-blackprimary: #333333;
+  --color-yellowprimary: #ffde90;
+  --color-blackprimary: #000000;
   --color-whiteprimary: #ffffff;
-  --drop-shadow-small: 6px 6px 0 #333333;
-  --drop-shadow-big: 12px 12px 0 #333333;
+  --drop-shadow-small: 6px 6px 0 #000000;
+  --drop-shadow-big: 12px 12px 0 #000000;
 }
 
 @layer utilities {
@@ -18,6 +18,12 @@
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
   }
 }
 

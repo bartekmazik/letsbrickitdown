@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import Hero from "./homepage/hero";
 
-import Zones from "./homepage/zones";
 import About from "./homepage/about";
 import Location from "./homepage/location";
 import Partners from "./homepage/partners";
@@ -16,9 +15,6 @@ const Homepage = () => {
       </div>
       <div className="snap-end">
         <About />
-      </div>
-      <div className="snap-end ">
-        <Zones />
       </div>
       <div className="snap-end ">
         <Location />

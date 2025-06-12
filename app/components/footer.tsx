@@ -10,7 +10,9 @@ import React from "react";
 }
 export const FooterProvider = () => {
   const pathname = usePathname();
-  return <>{pathname !== "/" ? <Footer /> : <></>}</>;
+  return (
+    <>{pathname !== "/" && pathname !== "/informacje" ? <Footer /> : <></>}</>
+  );
 };
 
 const Footer = () => {

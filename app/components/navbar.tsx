@@ -93,19 +93,19 @@ const Navbar = () => {
           Informacje
         </Link>
         <Link
-          href="/"
+          href="/orgnizatorzy"
           className="transition duration-200 hover:text-yellowprimary"
         >
           O nas
         </Link>
         <Link
-          href="/"
+          href="/partnerzy"
           className="transition duration-200 hover:text-purpleprimary"
         >
           Partnerzy
         </Link>
         <Link
-          href="/"
+          href="/kontakt"
           className="transition duration-200 hover:text-greenprimary"
         >
           Kontakt
