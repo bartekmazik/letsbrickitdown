@@ -5,7 +5,7 @@ import Navbar from "./components/navbar";
 import { FooterProvider } from "./components/footer";
 
 const poppins = Poppins({
-  weight: ["500", "700"],
+  weight: ["500", "600", "700"],
   subsets: ["latin"],
 });
 

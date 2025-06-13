@@ -2,8 +2,8 @@ import React from "react";
 import Informations from "./information";
 import Zones from "./zones";
 import Schedule from "./schedule";
-import Advantages from "./advantages";
 import Footer from "../components/footer";
+import Competition from "./competition";
 
 const Informacje = () => {
   return (
@@ -18,7 +18,7 @@ const Informacje = () => {
         <Schedule />
       </div>
       <div className="snap-end">
-        <Advantages />
+        <Competition />
       </div>
       <div className="snap-end">
         <Footer />
