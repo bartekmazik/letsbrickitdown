@@ -2,13 +2,43 @@ import React from "react";
 import Button from "../components/button";
 import Image from "next/image";
 
-const Organisators = () => {};
+const Organisator = () => {
+  return (
+    <div className="h-3/4 bg-white w-full drop-shadow-small text-black border-4 border-blackprimary flex flex-col items-center gap-2 p-4">
+      <div className="w-full h-2/3 relative aspect-square border-4">
+        <Image
+          src="/zamora.jpg"
+          fill
+          alt="organisator"
+          className="object-cover"
+        />
+      </div>
+      <h3 className="text-xl">ZAMORA</h3>
+      <p>Koordynator czegos</p>
+    </div>
+  );
+};
+
+const Organisators = () => {
+  return (
+    <div className="px-6 h-screen flex flex-col gap-4">
+      {" "}
+      <h1 className="text-6xl text-black pb-10 px-6 pt-6">ORGANIZATORZY</h1>
+      <div className="flex flex-row justify-between w-full gap-6 h-3/4">
+        <Organisator />
+        <Organisator />
+        <Organisator />
+        <Organisator />
+      </div>
+    </div>
+  );
+};
 
 const AboutUs = () => {
   return (
-    <section className="pt-[10vh] bg-greenprimary h-screen ">
+    <section className="pt-[10vh] bg-greenprimary min-h-screen ">
       {" "}
-      <div className="p-6 h-full">
+      <div className="p-6 h-screen">
         <h1 className="text-6xl text-black pb-10 px-6 pt-6">O ORGANIZACJI</h1>
         <div className="h-3/4 w-full drop-shadow-big bg-white border-4 border-blackprimary flex flex-row justify-between gap-6 p-6 text-black">
           <div className="flex flex-col gap-6 w-1/2">
@@ -40,6 +70,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <Organisators />
     </section>
   );
 };
