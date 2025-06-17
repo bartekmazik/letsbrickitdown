@@ -93,7 +93,7 @@ const Navbar = () => {
           Informacje
         </Link>
         <Link
-          href="/orgnizatorzy"
+          href="/onas"
           className="transition duration-200 hover:text-yellowprimary"
         >
           O nas

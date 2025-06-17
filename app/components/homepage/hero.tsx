@@ -1,6 +1,6 @@
 import { Calendar, Clock, MapPin } from "lucide-react";
 import React from "react";
-import Button from "../components/button";
+import Button from "../button";
 import Image from "next/image";
 
 const Hero = () => {

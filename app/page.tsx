@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-import Hero from "./homepage/hero";
+import Hero from "./components/homepage/hero";
 
-import About from "./homepage/about";
-import Location from "./homepage/location";
-import Partners from "./homepage/partners";
+import About from "./components/homepage/about";
+import Location from "./components/homepage/location";
+import Partners from "./components/homepage/partners";
 import Footer from "./components/footer";
 
 const Homepage = () => {
