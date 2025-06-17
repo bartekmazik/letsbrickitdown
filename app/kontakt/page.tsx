@@ -1,4 +1,4 @@
-import { Contact, LocateIcon, MapPin, Pin } from "lucide-react";
+import { Contact, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 

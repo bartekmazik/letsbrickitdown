@@ -53,12 +53,7 @@ const AboutUs = () => {
               zakończone sukcesem, takie jak: Tupot małych łapek, Młodzi mimo
               wieku, czy też Bieg Bohaterów.
             </span>
-            <Button
-              href="/"
-              variant="yellow"
-              text="STRONA ORGANIZACJI"
-              className="w-fit text-lg"
-            />
+            <Button text="STRONA ORGANIZACJI" className="w-fit text-lg" />
           </div>
           <div className="relative border-4 w-1/2 h-full border-black">
             <Image
