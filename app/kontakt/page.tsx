@@ -58,7 +58,7 @@ const Kontakt = () => {
     <section className="pt-[10vh] bg-greenprimary h-screen ">
       {" "}
       <div className="p-6 h-full">
-        <h1 className="text-6xl text-black pb-10">KONTAKT</h1>
+        <h1 className="text-6xl text-black p-6 pb-10">KONTAKT</h1>
         <div className="w-full h-1/2 flex flex-row items-start justify-between gap-8">
           <ContactInfo />
           <ContactLocation />

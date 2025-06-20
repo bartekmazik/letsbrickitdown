@@ -28,7 +28,7 @@ const Zones = () => {
         >
           <Map className="w-12 h-12 text-black" />
         </div>
-        <h1 className="text-6xl">STREFY WYDARZENIA</h1>
+        <h1 className="text-3xl sm:text-6xl">STREFY WYDARZENIA</h1>
       </div>
       <div className="flex flex-col sm:grid grid-cols-3 h-2/3 w-full gap-8">
         <Zone
