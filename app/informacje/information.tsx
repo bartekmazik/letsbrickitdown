@@ -1,5 +1,4 @@
 import { Calendar, Dot, Info, MapPin, Ticket } from "lucide-react";
-import Link from "next/link";
 import React from "react";
 
 const EventInformation = () => {
