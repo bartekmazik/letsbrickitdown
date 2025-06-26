@@ -41,32 +41,36 @@ const Sidebar = ({ setIsOpen }: { setIsOpen: (value: boolean) => void }) => {
 
       <div className="flex flex-col items-center justify-center text-2xl gap-12 flex-grow">
         <Link
-          href="/"
+          href="/informacje"
+          onClick={() => setIsOpen(false)}
           className="transition duration-200 hover:text-yellowprimary"
         >
           Informacje
         </Link>
         <Link
-          href="/"
+          href="/onas"
+          onClick={() => setIsOpen(false)}
           className="transition duration-200 hover:text-yellowprimary"
         >
           O nas
         </Link>
         <Link
-          href="/"
+          href="/partnerzy"
+          onClick={() => setIsOpen(false)}
           className="transition duration-200 hover:text-yellowprimary"
         >
           Partnerzy
         </Link>
         <Link
-          href="/"
+          href="/kontakt"
+          onClick={() => setIsOpen(false)}
           className="transition duration-200 hover:text-yellowprimary"
         >
           Kontakt
         </Link>
       </div>
 
-      <p className="text-center">{`Let's Brick It Down 2025©`}</p>
+      <p className="text-center font-thin">{`Let's Brick It Down 2025©`}</p>
     </motion.div>
   );
 };
@@ -75,7 +79,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.nav
-      className="w-screen fixed z-100 h-[10vh] shadow-lg  sm:border-b-4  bg-whiteprimary flex flex-row items-center justify-between px-8"
+      className="w-screen fixed z-100 h-[10vh] shadow-lg  border-b-4  bg-white flex flex-row items-center justify-between px-8"
       initial="closed"
       animate={isOpen ? "opened" : "closed"}
     >
@@ -88,30 +92,30 @@ const Navbar = () => {
       >
         <Link
           href="/informacje"
-          className="transition duration-200 hover:text-redprimary"
+          className="transition duration-200 hover:text-yellowstrong"
         >
           Informacje
         </Link>
         <Link
           href="/onas"
-          className="transition duration-200 hover:text-yellowprimary"
+          className="transition duration-200 hover:text-yellowstrong"
         >
           O nas
         </Link>
         <Link
           href="/partnerzy"
-          className="transition duration-200 hover:text-purpleprimary"
+          className="transition duration-200 hover:text-yellowstrong"
         >
           Partnerzy
         </Link>
         <Link
           href="/kontakt"
-          className="transition duration-200 hover:text-greenprimary"
+          className="transition duration-200 hover:text-yellowstrong"
         >
           Kontakt
         </Link>
       </div>
-      <Button className="max-w-32 hidden sm:flex" text={"ZAPISZ SIĘ"} />
+      <Button className="w-fit hidden sm:flex" text={"ZAPISZ SIĘ NA TURNIEJ"} />
       <AnimatePresence>
         {isOpen && <Sidebar setIsOpen={setIsOpen} />}
       </AnimatePresence>

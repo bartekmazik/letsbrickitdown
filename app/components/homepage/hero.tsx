@@ -1,48 +1,80 @@
-import { Calendar, Clock, MapPin } from "lucide-react";
+import { Calendar, Clock, MapPin, Sparkle } from "lucide-react";
 import React from "react";
 import Button from "../button";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative h-[100vh] bg-greenprimary pt-[10vh] border-b-4 flex flex-row justify-between items-start">
-      {/*Left container */}
-      <div className="w-full sm:w-1/2 h-full   p-8 sm:p-12 pb-24 flex flex-col items-start justify-start gap-8 ">
-        <div className="flex flex-col gap-2">
-          <h1 className="text-5xl sm:text-6xl sm:leading-20">
-            Zbudujmy coś <span className="text-yellowprimary ">razem!</span>
-          </h1>
-          <p className="sm:hidden font-light">
-            Wydarzenie dla osób zajmujących się klockami
-          </p>
+    <section className="relative min-h-screen bg-purpleprimary pt-24 sm:pt-[20vh] border-b-4 flex flex-col items-center overflow-hidden">
+      {/* Top Right Logo */}
+      <div className="hidden absolute right-4 bottom-4 w-24 h-24 sm:w-[15vw] sm:h-[15vh] text-xl font-thin sm:flex items-center justify-center invert">
+        <div className="relative w-full h-full">
+          <Image src="/paneuropa.svg" fill alt="logo PE" />
         </div>
-        <div className="relative flex flex-col items-start justify-start gap-8">
-          <div className="flex flex-row items-center justify-start gap-2 text-2xl">
-            <Calendar width={40} height={40} /> 12.07.2025
-          </div>
-          <div className="flex flex-row items-center justify-start gap-2 text-2xl">
-            <Clock width={40} height={40} /> 17:00
-          </div>
-          <div className="flex flex-row items-center justify-start gap-2 text-2xl">
-            <MapPin width={40} height={40} /> UE Katowice
-          </div>
-        </div>
-        <Button
-          text="INFORMACJE"
-          className="text-2xl z-50 justify-self-end-safe mt-12"
-        />
       </div>
-      {/*Right container */}
-      <div className="relative hidden sm:flex flex-row items-center justify-center w-1/2 h-full p-16 ">
-        <div className="rounded-full w-[30vw] h-[30vw] overflow-hidden border-4 border-blackprimary drop-shadow-small bg-white">
-          <Image
-            src="/zamora.jpg"
-            fill
-            alt="circle"
-            className=" object-cover"
+
+      {/* Main Content */}
+      <div className="w-full max-w-screen-xl px-4 sm:px-8 flex flex-col items-center gap-8 sm:gap-16">
+        <div className="text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+            Zbudujmy coś wielkiego!
+          </h1>
+        </div>
+        <div className="sm:hidden flex flex-col items-start justify-start gap-4">
+          <div className="flex items-center gap-3 text-xl font-semibold sm:text-2xl">
+            <Calendar className="w-6 h-6 sm:w-8 sm:h-8" /> 12.07.2025
+          </div>
+          <div className="flex items-center gap-3 text-xl font-semibold sm:text-2xl">
+            <MapPin className="w-6 h-6 sm:w-8 sm:h-8" /> UE KATOWICE
+          </div>
+          <div className="flex items-center gap-3 text-xl font-semibold sm:text-2xl">
+            <Clock className="w-6 h-6 sm:w-8 sm:h-8" /> 12:00
+          </div>
+        </div>
+
+        <Button
+          href="/informacje"
+          text="INFORMACJE"
+          className="text-lg sm:text-2xl z-50"
+        />
+
+        {/* Rotated Bar */}
+        <div className="w-[120vw] mt-8  flex gap-4 sm:gap-8 flex-wrap justify-center items-center py-4 sm:py-6 min-h-16 border-4 bg-white -rotate-3">
+          <Sparkle className="w-8 h-8 sm:w-12 sm:h-12" fill="#ffde90" />
+          <p className=" text-sm sm:text-lg">WSTĘP DARMOWY</p>
+          <Sparkle className="w-8 h-8 sm:w-12 sm:h-12" fill="#ffde90" />
+          <p className=" hidden sm:block text-sm sm:text-lg">
+            CIEKAWE PRELEKCJE
+          </p>
+          <Sparkle
+            className="hidden sm:block w-8 h-8 sm:w-12 sm:h-12"
+            fill="#ffde90"
+          />
+          <p className="hidden sm:block text-sm sm:text-lg">12 LIPCA 2025</p>
+          <Sparkle
+            className=" hidden sm:block w-8 h-8 sm:w-12 sm:h-12"
+            fill="#ffde90"
           />
         </div>
+
+        {/* Description */}
+        <div className="hidden px-4 sm:px-16 w-full sm:flex justify-center">
+          <div className="text-base sm:text-xl max-w-2xl text-center font-thin">
+            Zapraszamy na Let's brick it down, czyli wydarzenie dla osób
+            zajmujących się <strong className="font-bold">klockami</strong>.
+            Wydarzenie obejmuje turniej, prelekcje oraz strefę budowania.
+          </div>
+        </div>
       </div>
+
+      {/* Optional Circle Image (for larger screens) */}
+      {/* 
+      <div className="hidden sm:flex absolute right-8 top-1/2 transform -translate-y-1/2">
+        <div className="rounded-full w-64 h-64 sm:w-[30vw] sm:h-[30vw] overflow-hidden border-4 border-blackprimary drop-shadow-small bg-white">
+          <Image src="/zamora.jpg" fill alt="circle" className="object-cover" />
+        </div>
+      </div> 
+      */}
     </section>
   );
 };

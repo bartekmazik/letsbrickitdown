@@ -12,10 +12,10 @@ const Location = () => {
   const position = { lat: 50.26068073514783, lng: 19.04561660242226 };
 
   return (
-    <section className=" min-h-[90vh] sm:max-h-[90vh] w-screen bg-[url('/zamora.jpg')] bg-cover bg-center bg-fixed  p-8 sm:p-12 border-b-4">
-      <h1 className="text-4xl text-white pb-20">Miejsce wydarzenia</h1>
+    <section className=" min-h-[90vh] sm:max-h-[90vh] w-screen bg-yellowprimary p-8 sm:p-12 border-b-4">
+      <h1 className="text-4xl  pb-20">MIEJSCE WYDARZENIA</h1>
       <div className="flex flex-col sm:grid grid-cols-2 gap-10 h-2/3">
-        <div className="bg-white h-[50vh] drop-shadow-big border-4 p-12 flex flex-col gap-6 sm:gap-12">
+        <div className="bg-white h-[50vh] drop-shadow-big border-4 p-8 sm:p-12 flex flex-col gap-6 sm:gap-12">
           {" "}
           <h2 className="text-2xl">Uniwersytet Ekonomiczny w Katowicach</h2>
           <div className="flex flex-col  gap-4">

@@ -3,8 +3,9 @@
 @theme inline {
   --color-greenprimary: #8ed4c6;
   --color-redprimary: #ed85b0;
-  --color-purpleprimary: #802bff;
+  --color-purpleprimary: #ddc5ff;
   --color-yellowprimary: #ffde90;
+  --color-yellowstrong: #ffc02b;
   --color-blackprimary: #000000;
   --color-whiteprimary: #ffffff;
   --drop-shadow-small: 6px 6px 0 #000000;

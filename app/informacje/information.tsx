@@ -4,7 +4,7 @@ import React from "react";
 
 const EventInformation = () => {
   return (
-    <div className="relative w-full sm:w-1/2 h-full p-4 drop-shadow-big bg-redprimary border-4 border-blackprimary overflow-hidden">
+    <div className="relative w-full sm:w-1/2 min-h-full p-4 drop-shadow-big bg-white border-4 border-blackprimary overflow-hidden">
       <div
         className="absolute inset-0 opacity-20 z-0"
         style={{ backgroundAttachment: "fixed" }}
@@ -25,14 +25,16 @@ const EventInformation = () => {
         <div className="flex flex-col gap-3 font-light">
           <h2 className="text-2xl sm:text-3xl font-bold">CO CIĘ CZEKA?</h2>
           <div className="flex items-center gap-2 text-sm sm:text-lg">
-            <Dot className="w-6 h-6" /> Dobra atmosfera i naprawdę dużo klocków!
+            <Dot className="min-w-6 min-h-6" /> Dobra atmosfera i naprawdę dużo
+            klocków!
+          </div>
+          <div className="flex items-center gap-2 text-sm sm:text-lg text-pretty">
+            <Dot className="min-w-6 min-h-6" /> Inspirujące wystąpienia o
+            klockowym biznesie i budowaniu kariery.
           </div>
           <div className="flex items-center gap-2 text-sm sm:text-lg">
-            <Dot className="w-6 h-6" /> Inspirujące wystąpienia o klockowym
-            biznesie i budowaniu kariery.
-          </div>
-          <div className="flex items-center gap-2 text-sm sm:text-lg">
-            <Dot className="w-6 h-6" /> Turniej budowania w aż 8 motywach!
+            <Dot className="min-w-6 min-h-6" /> Turniej budowania w aż 8
+            motywach!
           </div>
         </div>
       </div>
@@ -42,7 +44,7 @@ const EventInformation = () => {
 
 const ReasonsInformation = () => {
   return (
-    <div className="relative w-full sm:w-1/2 h-full p-4 drop-shadow-big bg-greenprimary border-4 border-blackprimary overflow-hidden">
+    <div className="relative w-full sm:w-1/2 h-full p-4 drop-shadow-big bg-white border-4 border-blackprimary overflow-hidden">
       <div
         className="absolute inset-0 opacity-20 z-0"
         style={{ backgroundAttachment: "fixed" }}
@@ -78,12 +80,12 @@ const ReasonsInformation = () => {
             <Dot className="w-6 h-6" /> Świetna atmosfera i dobre wspomnienia!
           </div>
         </div>
-        <Link
-          href="/"
+        <a
+          href="https://fb.me/e/5At0enIRf"
           className="mt-4 self-center py-3 px-6 text-white bg-black text-base sm:text-xl font-semibold rounded-lg hover:scale-105 transition-transform duration-300"
         >
           SPRAWDŹ WYDARZENIE NA FACEBOOKU
-        </Link>
+        </a>
       </div>
     </div>
   );
@@ -91,19 +93,19 @@ const ReasonsInformation = () => {
 
 const Informations = () => {
   return (
-    <div className="w-full bg-white border-b-4 p-4 sm:p-6 flex flex-col">
+    <div className="w-full h-full bg-purpleprimary border-b-4 p-6 flex flex-col">
       {/* Header */}
-      <div className="relative w-full mb-6 flex flex-col sm:flex-row items-center justify-start gap-4 text-black">
-        <div className="hidden sm:flex h-20 w-20 bg-yellowprimary border-4 border-blackprimary items-center justify-center">
-          <Info className="w-10 h-10" />
+      <div className="relative w-full mb-6 flex flex-col sm:flex-row items-center justify-start gap-2 text-black">
+        <div className="hidden sm:flex h-20 w-20  items-center justify-center">
+          <Info className="w-16 h-16" />
         </div>
-        <h1 className="text-2xl sm:text-5xl font-bold">
+        <h1 className="text-3xl sm:text-5xl font-bold">
           INFORMACJE O WYDARZENIU
         </h1>
       </div>
 
       {/* Main content */}
-      <div className="flex flex-col sm:flex-row gap-6">
+      <div className="h-full flex flex-col sm:flex-row gap-6 pb-6">
         <EventInformation />
         <ReasonsInformation />
       </div>

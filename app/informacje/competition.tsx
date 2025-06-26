@@ -4,15 +4,15 @@ import React from "react";
 
 const Competition = () => {
   return (
-    <section className="bg-white w-full px-4 sm:px-6 pt-6 pb-20">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pb-10 text-black">
-        <div className="h-20 w-20 sm:h-24 sm:w-24 bg-yellowprimary border-4 border-blackprimary flex items-center justify-center">
-          <Trophy className="w-10 h-10 sm:w-12 sm:h-12" />
+    <section className="bg-yellowprimary w-full p-6 pb-20">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 pb-8 text-black">
+        <div className="h-20 w-20 sm:h-24 sm:w-24  hidden sm:flex items-center justify-center">
+          <Trophy className="w-16 sm:h-16" />
         </div>
-        <h1 className="text-4xl sm:text-6xl">INFORMACJE O TURNIEJU</h1>
+        <h1 className="text-3xl sm:text-5xl">INFORMACJE O TURNIEJU</h1>
       </div>
 
-      <div className="min-h-[80vh] w-full p-4 sm:p-6 border-4 drop-shadow-big border-blackprimary bg-greenprimary flex flex-col gap-8">
+      <div className="min-h-[80vh] w-full p-4 sm:p-6 border-4 drop-shadow-big border-blackprimary bg-purpleprimary flex flex-col gap-8">
         {/* Info about competition */}
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl sm:text-3xl">
@@ -38,7 +38,7 @@ const Competition = () => {
         </div>
 
         {/* Categories */}
-        <div className="drop-shadow-small w-full bg-redprimary border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
+        <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
           <h3>Dwie kategorie wiekowe i limity czasowe:</h3>
           <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
             <CircleSmall className="w-4 h-4" fill="black" /> 6-10 lat, 1,5
@@ -51,7 +51,7 @@ const Competition = () => {
         </div>
 
         {/* Tasks info */}
-        <div className="drop-shadow-small w-full bg-yellowprimary border-4 flex flex-col px-4 py-6 sm:py-8 text-sm sm:text-lg gap-4 font-thin">
+        <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-sm sm:text-lg gap-4 font-thin">
           Waszym zadaniem będzie zbudowanie konstrukcji w jednym z 8 motywów,
           który zostanie wylosowany podczas wydarzenia (motywy ujawniamy z
           czasem, dlatego śledźcie nasze social media). Liczy się spryt,
@@ -59,7 +59,7 @@ const Competition = () => {
         </div>
 
         {/* Limited places */}
-        <div className="drop-shadow-small w-full bg-purpleprimary border-blackprimary text-white border-4 flex flex-col items-center px-4 py-6 sm:py-8 text-2xl sm:text-3xl gap-4 text-center">
+        <div className="drop-shadow-small w-full bg-white border-blackprimary text-black border-4 flex flex-col items-center px-4 py-6 sm:py-8 text-2xl sm:text-3xl gap-4 text-center">
           LICZBA MIEJSC JEST OGRANICZONA!
         </div>
 

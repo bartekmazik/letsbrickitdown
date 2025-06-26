@@ -7,7 +7,7 @@ import Competition from "./competition";
 
 const Informacje = () => {
   return (
-    <div className="min-h-screen pt-[10vh] bg-greenprimary scroll-smooth no-scrollbar">
+    <div className="min-h-screen pt-[10vh] bg-purpleprimary scroll-smooth no-scrollbar">
       <Informations />
 
       <Zones />
