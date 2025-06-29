@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://letsbrickitdown.com/sitemap.xml",
+    sitemap: "https://letsbrickitdown.vercel.app/sitemap.xml",
   };
 }

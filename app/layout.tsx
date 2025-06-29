@@ -25,18 +25,18 @@ export const metadata: Metadata = {
   description:
     "Wydarzenie zorientowane na edukacyjno-biznesowy aspekt klocków.",
   robots: "index, follow",
-  metadataBase: new URL("https://letsbrickitdown.com"),
+  metadataBase: new URL("https://letsbrickitdown.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Let's Brick It Down",
     description: "Festiwal klocków w Katowicach",
-    url: "https://letsbrickitdown.com/",
+    url: "https://letsbrickitdown.vercel.app/",
     siteName: "Let's Brick It Down",
     images: [
       {
-        url: "https://letsbrickitdown.com/opengraph-image.png",
+        url: "https://letsbrickitdown.vercel.app/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Banner Festiwalu Klocków",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Festiwal klocków w Katowicach – Let's Brick It Down",
     description: "Weź udział w prelekcjach oraz turnieju budowania!",
-    images: ["https://letsbrickitdown.com/opengraph-image.png"],
+    images: ["https://letsbrickitdown.vercel.app/opengraph-image.png"],
   },
 };
 
