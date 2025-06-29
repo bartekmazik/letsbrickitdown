@@ -70,10 +70,10 @@ const ReasonsInformation = () => {
             CO WYNIESIESZ Z WYDARZENIA?
           </h2>
           <div className="flex items-center gap-2 text-sm sm:text-lg">
-            <Dot className="w-6 h-6" /> Nowe spojrzenie na świat klocków
+            <Dot className="w-6 h-6" /> Nowe spojrzenie na świat klocków.
           </div>
           <div className="flex items-center gap-2 text-sm sm:text-lg">
-            <Dot className="w-6 h-6" /> Praktyczne wskazówki od ekspertów
+            <Dot className="w-6 h-6" /> Praktyczne wskazówki od ekspertów.
           </div>
           <div className="flex items-center gap-2 text-sm sm:text-lg">
             <Dot className="w-6 h-6" /> Świetna atmosfera i dobre wspomnienia!

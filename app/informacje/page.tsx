@@ -1,9 +1,14 @@
 import React from "react";
 import Informations from "./information";
 import Zones from "./zones";
-import Schedule from "./schedule";
+// import Schedule from "./schedule";
 import Footer from "../components/footer";
 import Competition from "./competition";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Informacje",
+};
 
 const Informacje = () => {
   return (
@@ -12,7 +17,7 @@ const Informacje = () => {
 
       <Zones />
 
-      <Schedule />
+      {/* <Schedule /> */}
 
       <Competition />
 

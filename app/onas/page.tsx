@@ -1,6 +1,11 @@
 import React from "react";
 import Button from "../components/button";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "O nas",
+};
 
 const Organisator = ({
   imageUrl,
@@ -19,7 +24,7 @@ const Organisator = ({
         <Image src={imageUrl} fill alt={imageAlt} className="object-cover" />
       </div>
       <h3 className="text-xl">{name}</h3>
-      <p className="text-lg font-thin">{role}</p>
+      <p className="text-lg font-thin text-center">{role}</p>
     </div>
   );
 };
@@ -36,25 +41,25 @@ const Organisators = () => {
           imageAlt="mateusz koordynator glowny"
           imageUrl="/organisators/mateusz.jpg"
           name="Mateusz Zamora"
-          role="Koordynator główny"
+          role="Koordynator Główny"
         />
         <Organisator
           imageAlt="kasia koordynator kzp"
           imageUrl="/organisators/kasia.png"
           name="Katarzyna Paliga"
-          role="Koordynator kontaktu z partnerami"
+          role="Koordynatorka Kontaktu z Partnerami"
         />{" "}
         <Organisator
           imageAlt="kuba koordynator harmonogramu"
           imageUrl="/organisators/kuba.jpg"
           name="Jakub Ściegienny"
-          role="Koordynator harmonogramu"
+          role="Koordynator Harmonogramu i Logistyki"
         />{" "}
         <Organisator
           imageAlt="marcel koordynator promocji"
           imageUrl="/organisators/marcel.jpg"
           name="Marcel Gruner"
-          role="Koordynator promocji"
+          role="Koordynator Promocji"
         />
       </div>
     </div>

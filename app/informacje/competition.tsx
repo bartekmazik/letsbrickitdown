@@ -4,7 +4,10 @@ import React from "react";
 
 const Competition = () => {
   return (
-    <section className="bg-yellowprimary w-full p-6 pb-20">
+    <section
+      className="bg-yellowprimary w-full p-6 pb-20 scroll-mt-20"
+      id="competition"
+    >
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 pb-8 text-black">
         <div className="h-20 w-20 sm:h-24 sm:w-24  hidden sm:flex items-center justify-center">
           <Trophy className="w-16 sm:h-16" />
@@ -41,11 +44,11 @@ const Competition = () => {
         <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
           <h3>Dwie kategorie wiekowe i limity czasowe:</h3>
           <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
-            <CircleSmall className="w-4 h-4" fill="black" /> 6-10 lat, 1,5
+            <CircleSmall className="w-4 h-4" fill="black" /> 6-10 lat - 1,5
             godziny budowania
           </div>
           <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
-            <CircleSmall className="w-4 h-4" fill="black" /> 11+, 2 godziny
+            <CircleSmall className="w-4 h-4" fill="black" /> 11+ - 2 godziny
             budowania
           </div>
         </div>
@@ -65,7 +68,7 @@ const Competition = () => {
 
         {/* Sign up button */}
         <Link
-          href="/"
+          href="https://forms.gle/gHvFA3R9s9ECPivMA"
           className="self-center py-4 px-6 sm:py-6 sm:px-8 text-white bg-black text-lg sm:text-xl font-semibold rounded-lg hover:scale-105 transition-transform duration-300"
         >
           ZAPISZ SIĘ NA TURNIEJ

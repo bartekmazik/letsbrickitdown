@@ -41,16 +41,16 @@ const Hero = () => {
         {/* Rotated Bar */}
         <div className="w-[120vw] mt-8  flex gap-4 sm:gap-8 flex-wrap justify-center items-center py-4 sm:py-6 min-h-16 border-4 bg-white -rotate-3">
           <Sparkle className="w-8 h-8 sm:w-12 sm:h-12" fill="#ffde90" />
-          <p className=" text-sm sm:text-lg">WSTĘP DARMOWY</p>
+          <p className=" text-sm sm:text-xl">WSTĘP DARMOWY</p>
           <Sparkle className="w-8 h-8 sm:w-12 sm:h-12" fill="#ffde90" />
-          <p className=" hidden sm:block text-sm sm:text-lg">
+          <p className=" hidden sm:block text-sm sm:text-xl">
             CIEKAWE PRELEKCJE
           </p>
           <Sparkle
             className="hidden sm:block w-8 h-8 sm:w-12 sm:h-12"
             fill="#ffde90"
           />
-          <p className="hidden sm:block text-sm sm:text-lg">12 LIPCA 2025</p>
+          <p className="hidden sm:block text-sm sm:text-xl">12 LIPCA 2025</p>
           <Sparkle
             className=" hidden sm:block w-8 h-8 sm:w-12 sm:h-12"
             fill="#ffde90"
@@ -60,7 +60,7 @@ const Hero = () => {
         {/* Description */}
         <div className="hidden px-4 sm:px-16 w-full sm:flex justify-center">
           <div className="text-base sm:text-xl max-w-2xl text-center font-thin">
-            {`Zapraszamy na Let's brick it down, czyli wydarzenie dla osób
+            {`Zapraszamy na Let’s Brick It Down!, czyli wydarzenie dla osób
             zajmujących się`}{" "}
             <strong className="font-bold">klockami</strong>. Wydarzenie obejmuje
             turniej, prelekcje oraz strefę budowania.

@@ -115,7 +115,11 @@ const Navbar = () => {
           Kontakt
         </Link>
       </div>
-      <Button className="w-fit hidden sm:flex" text={"ZAPISZ SIĘ NA TURNIEJ"} />
+      <Button
+        className="w-fit hidden sm:flex"
+        href="/informacje/#competition"
+        text={"ZAPISZ SIĘ NA TURNIEJ"}
+      />
       <AnimatePresence>
         {isOpen && <Sidebar setIsOpen={setIsOpen} />}
       </AnimatePresence>

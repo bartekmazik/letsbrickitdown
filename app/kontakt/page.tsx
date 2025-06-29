@@ -1,5 +1,11 @@
 import { Contact, MapPin } from "lucide-react";
+import { Metadata } from "next";
+
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Kontakt",
+};
 
 const ContactInfo = () => {
   return (
@@ -9,8 +15,8 @@ const ContactInfo = () => {
         DANE KONTAKOWE
       </div>
       <div className="flex flex-col gap-4 text-md sm:text-xl font-thin">
-        <p>Email: email.com</p>
-        <p>Telefon: 534343434</p>
+        <p>Email: mateusz.zamora2@edu.uekat.pl</p>
+        <p>Telefon: 518 040 356</p>
       </div>
       <div className="flex flex-row items-center text-md sm:text-xl gap-2">
         ZNAJDZIESZ NAS RÓWNIEZ TUTAJ

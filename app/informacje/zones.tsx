@@ -12,9 +12,9 @@ const Zone = ({
 }) => {
   return (
     <div
-      className={`${className}  border-4 drop-shadow-big flex flex-col h-full p-4 py-8`}
+      className={`${className}  border-4 drop-shadow-big flex flex-col min-h-72 p-4 py-8`}
     >
-      <h2 className="text-3xl pb-4 self-center">{title}</h2>
+      <h2 className="text-2xl sm:text-3xl pb-4 sm:self-center">{title}</h2>
       <p className="text-base font-light overflow-hidden "> {content}</p>
     </div>
   );
@@ -22,7 +22,7 @@ const Zone = ({
 
 const Zones = () => {
   return (
-    <section className="min-h-[90vh] sm:max-h-[90vh] sm:h-[90vh] bg-yellowprimary w-screen border-b-4 p-6  ">
+    <section className="min-h-[60vh]  bg-yellowprimary w-screen border-b-4 p-6  ">
       <div className="relative z-10 flex flex-row items-center pb-8 text-black">
         <div
           className=" h-24 w-24 bg-transparent hidden sm:flex flex-col items-center justify-center
