@@ -5,7 +5,7 @@ import React from "react";
 const Competition = () => {
   return (
     <section
-      className="bg-yellowprimary w-full p-6 pb-20 scroll-mt-20"
+      className="bg-purpleprimary w-full p-6 pb-20 scroll-mt-20"
       id="competition"
     >
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 pb-8 text-black">
@@ -15,7 +15,7 @@ const Competition = () => {
         <h1 className="text-3xl sm:text-5xl">INFORMACJE O TURNIEJU</h1>
       </div>
 
-      <div className="min-h-[80vh] w-full p-4 sm:p-6 border-4 drop-shadow-big border-blackprimary bg-purpleprimary flex flex-col gap-8">
+      <div className="min-h-[80vh] w-full p-4 sm:p-6 border-4 drop-shadow-big border-blackprimary bg-yellowprimary flex flex-col gap-8">
         {/* Info about competition */}
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl sm:text-3xl">
@@ -41,24 +41,26 @@ const Competition = () => {
         </div>
 
         {/* Categories */}
-        <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
-          <h3>Dwie kategorie wiekowe i limity czasowe:</h3>
-          <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
-            <CircleSmall className="w-4 h-4" fill="black" /> 6-10 lat - 1,5
-            godziny budowania
+        <div className="w-full flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+          <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
+            <h3>Dwie kategorie wiekowe i limity czasowe:</h3>
+            <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
+              <CircleSmall className="w-4 h-4" fill="black" /> 6-10 lat - 1,5
+              godziny budowania
+            </div>
+            <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
+              <CircleSmall className="w-4 h-4" fill="black" /> 11+ - 2 godziny
+              budowania
+            </div>
           </div>
-          <div className="flex items-center gap-2 text-sm sm:text-lg font-thin">
-            <CircleSmall className="w-4 h-4" fill="black" /> 11+ - 2 godziny
-            budowania
-          </div>
-        </div>
 
-        {/* Tasks info */}
-        <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-sm sm:text-lg gap-4 font-thin">
-          Waszym zadaniem będzie zbudowanie konstrukcji w jednym z 8 motywów,
-          który zostanie wylosowany podczas wydarzenia (motywy ujawniamy z
-          czasem, dlatego śledźcie nasze social media). Liczy się spryt,
-          kreatywność, ale przede wszystkim – dobra zabawa!
+          {/* Tasks info */}
+          <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-sm sm:text-lg gap-4 font-thin">
+            Waszym zadaniem będzie zbudowanie konstrukcji w jednym z 8 motywów,
+            który zostanie wylosowany podczas wydarzenia (motywy ujawniamy z
+            czasem, dlatego śledźcie nasze social media). Liczy się spryt,
+            kreatywność, ale przede wszystkim – dobra zabawa!
+          </div>
         </div>
 
         {/* Limited places */}

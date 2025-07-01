@@ -1,0 +1,20 @@
+[
+  {
+    "name": "1000 klocków",
+    "imageUrl": "/partners/1000klocków.png",
+    "imageAlt": "Logo 1000 klockow",
+    "isStrategicPartner": false
+  },
+  {
+    "name": "UE Katowice",
+    "imageUrl": "/partners/uekat.png",
+    "imageAlt": "Logo UE Katowice",
+    "isStrategicPartner": false
+  },
+  {
+    "name": "Miasto Katowice",
+    "imageUrl": "/partners/miastokatowice.png",
+    "imageAlt": "Logo patronatu miasta Katowice",
+    "isStrategicPartner": false
+  }
+]

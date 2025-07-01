@@ -8,8 +8,11 @@ const About = () => {
         <h1 className="text-4xl  ">WYDARZENIE</h1>
         <p className="text-md font-thin pb-4 overflow-hidden break-words">
           <strong className="font-semibold">„Let’s Brick It Down!”</strong>
-          {` to wydarzenie pełne akcji dla wszystkich fanów klocków. Czekają na Ciebie: emocjonujący turniej budowania, inspirujące prelekcje, warsztaty i strefa relaksu, gdzie złapiesz oddech. Chcemy pokazać, że klocki to nie tylko zabawa – to też świetne narzędzie do nauki i rozwijania 
-pomysłów biznesowych. 
+          {` to wyjątkowy projekt, który  ma pokazać, że klocki to coś więcej niż tylko zabawa - to także narzędzie do nauki, inspiracja do działania i możliwości rozwoju własnego biznesu.
+To wydarzenie pełne kreatywności, pasji i pozytywnej energii – stworzone z myślą o wszystkich, którzy kochają klocki – niezależnie od wieku! Znajdziesz tu przestrzeń pełną pasji, spotkań z ekspertami oraz dobrej rywalizacji. Uczestnicy będą mogli dowiedzieć się, jak wygląda praca w klockowej branży oraz jak z pozoru prosta zabawa może stać się sposobem na życie.
+Projekt skierowany jest do wszystkich - dzieci, młodzieży i dorosłych - każdy znajdzie coś dla siebie!
+Dołącz do naszego wydarzenia i przekonaj się, że klocki mogą odmienić życie! 
+
 `}
         </p>
       </div>
@@ -19,7 +22,9 @@ pomysłów biznesowych.
           <h2 className="text-xl">Interesujące prelekcje</h2>
           <p className="text-md font-light w-2/3">
             {" "}
-            Weź udział w interesujących prelekcjach na temat klocków LEGO
+            Odkryj, jak klocki LEGO mogą realnie odmienić Twoje życie. Poznaj
+            historie osób, które zbudowały na nich swoją pasję i biznes, i
+            dowiedz się, jak wykorzystać klocki w nauce czy biznesie.
           </p>
         </div>
         <div className="sm:border-r-4 border-black flex flex-col gap-2 items-center justify-center">
@@ -27,17 +32,19 @@ pomysłów biznesowych.
           <h2 className="text-xl">Weź udział w zawodach</h2>
           <p className="text-md font-light w-2/3">
             {" "}
-            Kazdy ma okazje wygrac super mega fajna nagrode biorac udzial w
-            turnieju budowania
+            Wskocz do gry o tytuł mistrza konstrukcji! Zmierz się z innymi
+            uczestnikami i pokaż jak radzisz sobie z budowaniem pod presją
+            czasu. Liczy się pomysł, kreatywność i dobra zabawa.
           </p>
         </div>
         <div className=" flex flex-col gap-2 items-center justify-center">
           <Handshake width={92} height={92} />
-          <h2 className="text-xl">Przyszlosc biznesu</h2>
+          <h2 className="text-xl">Strefa chillu</h2>
           <p className="text-md font-light w-2/3">
-            {" "}
-            Nawiaz kontakty biznesowe i dowiedz się jak klocki mogą byc
-            przydatnym narzedziem biznesowym w dzisiejszych czasach
+            Zbuduj sobie chwilę wytchnienia! Znajdziesz tutaj planszówki —
+            idealne dla fanów luźnej rywalizacji oraz wiele innych atrakcji.
+            Wpadnij też do strefy VR! To idealne miejsce, by naładować baterie,
+            zanim wrócisz do akcji!
           </p>
         </div>
       </div>
