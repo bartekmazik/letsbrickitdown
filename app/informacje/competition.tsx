@@ -72,8 +72,7 @@ const Competition = () => {
           {/* Tasks info */}
           <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-sm sm:text-lg gap-4 font-thin">
             Waszym zadaniem będzie zbudowanie konstrukcji w jednym z 8 motywów,
-            który zostanie wylosowany podczas wydarzenia (motywy ujawniamy z
-            czasem, dlatego śledźcie nasze social media). Liczy się spryt,
+            który zostanie wylosowany podczas wydarzenia. Liczy się spryt,
             kreatywność, ale przede wszystkim – dobra zabawa!
           </div>
         </div>
