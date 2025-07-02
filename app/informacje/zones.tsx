@@ -36,17 +36,18 @@ const Zones = () => {
         <Zone
           className="bg-white"
           title="STREFA PRELEKCJI"
-          content="Choć klocki kojarzą się głównie z zabawą, są również skutecznym narzędziem rozwoju oraz nauki. W Strefie Prelekcji poznacie osoby, które zamieniły swoją klockową pasję w sposób na życie. Przekonacie się, jak można je wykorzystać  w edukacji, tworzeniu projektów, a nawet w biznesie!"
+          content="Choć klocki kojarzą się głównie z zabawą, są również skutecznym narzędziem rozwoju oraz nauki. W Strefie Prelekcji poznasz osoby, które zamieniły swoją klockową pasję w sposób na życie. Przekonaj się, jak można je wykorzystać w edukacji, tworzeniu projektów, a nawet w biznesie!"
         />
         <Zone
           className="bg-white text-black border-blackprimary"
           title="STREFA TURNIEJU"
-          content="Jeśli jesteście miłośnikami rywalizacji, mamy coś dla was! W naszej Strefie Turnieju będziecie mogli się zmierzyć, budując w parach, na czas w aż 8 różnych motywach. Ważna będzie nie tylko kreatywność i wyobraźnia, ale również umiejętność pracy w zespole. Liczba miejsc jest ograniczona, dlatego zapisz się (to może być odnośnik do zapisów) już teraz!"
+          content="Jeśli jesteś miłośnikiem rywalizacji, mamy coś dla Ciebie! Tutaj sprawdzisz, jak radzisz sobie z budowaniem pod presją czasu i konkretnym motywem. Zmierz się z innymi uczestnikami, pokaż swoją kreatywność i powalcz o tytuł mistrza budowania. Liczy się pomysł, szybkość i dobra zabawa! Zapisz się już teraz!"
         />
         <Zone
           className="bg-white text-black border-blackprimary"
           title="STREFA CHILLU"
-          content="Aby złapać chwilę wytchnienia, wpadaj śmiało do Strefy Chillu! Będą tam na Ciebie czekać wygodne miejsca do relaksu oraz inne dodatkowe atrakcje. To idealne miejsce na odpoczynek i naładowanie baterii w spokojnej atmosferze."
+          content="Potrzebujesz chwili dla siebie? W Strefie Chillu znajdziesz przestrzeń, w której możesz po prostu odpocząć i złapać oddech. Czekają na Ciebie wygodne pufy, planszówki dla tych, którzy lubią odrobinę rywalizacji na luzie, kreatywne aktywności i strefa VR. Odpocznij, zrelaksuj się i przekonaj się, że dobrą chwilę też można zbudować.
+"
         />
       </div>
     </section>

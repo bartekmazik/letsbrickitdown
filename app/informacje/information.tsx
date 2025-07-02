@@ -1,4 +1,4 @@
-import { Calendar, Dot, Info, MapPin, Ticket } from "lucide-react";
+import { Building, Calendar, Dot, Info, MapPin, Ticket } from "lucide-react";
 import React from "react";
 
 const EventInformation = () => {
@@ -15,10 +15,14 @@ const EventInformation = () => {
             <Calendar className="w-6 h-6 sm:w-8 sm:h-8" /> 12.07.2025
           </div>
           <div className="flex items-center gap-3 text-lg sm:text-2xl">
-            <MapPin className="w-6 h-6 sm:w-8 sm:h-8" /> UE KATOWICE
+            <MapPin className="min-w-6 min-h-6 sm:w-8 sm:h-8" />{" "}
+            <p>Uniwersytet Ekonomiczny w Katowicach</p>
           </div>
           <div className="flex items-center gap-3 text-lg sm:text-2xl">
-            <Ticket className="w-6 h-6 sm:w-8 sm:h-8" /> WSTĘP DARMOWY
+            <Building className="w-6 h-6 sm:w-8 sm:h-8" /> Budynek CNTI
+          </div>
+          <div className="flex items-center gap-3 text-lg sm:text-2xl">
+            <Ticket className="w-6 h-6 sm:w-8 sm:h-8" /> Wstęp darmowy
           </div>
         </div>
         <div className="flex flex-col gap-3 font-light">

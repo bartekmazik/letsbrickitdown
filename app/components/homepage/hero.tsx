@@ -60,10 +60,12 @@ const Hero = () => {
         {/* Description */}
         <div className="hidden px-4 sm:px-16 w-full sm:flex justify-center">
           <div className="text-base sm:text-xl max-w-2xl text-center font-thin">
-            {`Zapraszamy na Let’s Brick It Down!, czyli wydarzenie dla osób
-            zajmujących się`}{" "}
-            <strong className="font-bold">klockami</strong>. Wydarzenie obejmuje
-            turniej, prelekcje oraz strefę budowania.
+            {`Zapraszamy na`}{" "}
+            <strong className="font-bold">Let’s Brick It Down!</strong>{" "}
+            {`– czyli wydarzenie łączące
+            kreatywna przestrzeń do budowania, relaksu i inspiracji, stworzona z
+            myślą o wszystkich, którzy lubią działać z pasją i nie boją się
+            wyzwań.`}
           </div>
         </div>
       </div>

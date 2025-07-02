@@ -90,7 +90,7 @@ const AboutUs = () => {
               realizują liczne projekty, zarówno biznesowe, jak i związane z ich
               indywidualnymi zainteresowaniami. Na ich koncie są projekty
               zakończone sukcesem, takie jak: Tupot małych łapek, Młodzi mimo
-              wieku, czy też Bieg Bohaterów.
+              wieku, czy też ManuArt Festiwal.
             </span>
             <Button
               text="STRONA ORGANIZACJI"

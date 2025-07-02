@@ -2,6 +2,21 @@ import { CircleSmall, Puzzle, Trophy, Users } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
+const CategoriesChild = [
+  "Bajki",
+  "Zawód przyszłości",
+  "Zamki",
+  "Kosmos",
+  "Podwodny świat",
+];
+const CategoriesOlder = [
+  "Fantasy",
+  "Hobby",
+  "Zabytki",
+  "Kosmos",
+  "Podwodny świat",
+];
+
 const Competition = () => {
   return (
     <section
@@ -60,6 +75,33 @@ const Competition = () => {
             który zostanie wylosowany podczas wydarzenia (motywy ujawniamy z
             czasem, dlatego śledźcie nasze social media). Liczy się spryt,
             kreatywność, ale przede wszystkim – dobra zabawa!
+          </div>
+        </div>
+        {/* Building styles */}
+        <div className="w-full flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+          <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
+            <h3>Motywy budowania w kategorii 6-10 lat:</h3>
+            {CategoriesChild.map((category, i) => (
+              <div
+                className="flex items-center gap-2 text-sm sm:text-lg font-thin"
+                key={i}
+              >
+                <CircleSmall className="w-4 h-4" fill="black" /> {category}
+              </div>
+            ))}
+          </div>
+
+          {/* Tasks info */}
+          <div className="drop-shadow-small w-full bg-white border-4 flex flex-col px-4 py-6 sm:py-8 text-base sm:text-xl gap-4">
+            <h3>Motywy budowania w kategorii powyżej 11 lat:</h3>
+            {CategoriesOlder.map((category, i) => (
+              <div
+                className="flex items-center gap-2 text-sm sm:text-lg font-thin"
+                key={i}
+              >
+                <CircleSmall className="w-4 h-4" fill="black" /> {category}
+              </div>
+            ))}
           </div>
         </div>
 
