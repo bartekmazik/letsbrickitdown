@@ -23,7 +23,7 @@ async function Partners() {
             <Image
               src={partner.imageUrl}
               alt={partner.imageAlt}
-              className="object-contain max-w-[20vw] h-[300px] w-auto "
+              className="object-contain w-full h-[300px]  "
               width={0}
               height={0}
               sizes="100vw"

@@ -79,15 +79,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.nav
-      className="w-screen fixed z-100 h-[10vh] shadow-lg  border-b-4  bg-white flex flex-row items-center justify-between px-8"
+      className="w-screen fixed z-100 h-[10vh] shadow-lg  border-b-4 md:gap-16 xl:gap-0  bg-white flex flex-row items-center justify-between md:justify-start xl:justify-between px-8"
       initial="closed"
       animate={isOpen ? "opened" : "closed"}
     >
-      <Link href="/" className="relative w-48 h-full">
+      <Link href="/" className="relative w-36 lg:w-48 h-full">
         <Image src="/logo.svg" fill alt="logo" />
       </Link>
       <div
-        className="sm:flex flex-row items-center justify-start text-xl gap-12 hidden 
+        className="sm:flex flex-row items-center justify-start text-lg text-nowrap xl:text-xl gap-6 lg:gap-12 hidden 
       "
       >
         <Link
@@ -116,7 +116,7 @@ const Navbar = () => {
         </Link>
       </div>
       <Button
-        className="w-fit hidden sm:flex"
+        className="w-fit hidden lg:flex"
         href="/informacje/#competition"
         text={"ZAPISZ SIĘ NA TURNIEJ"}
       />
@@ -124,7 +124,7 @@ const Navbar = () => {
         {isOpen && <Sidebar setIsOpen={setIsOpen} />}
       </AnimatePresence>
 
-      <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden">
+      <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
         <MenuIcon />
       </button>
     </motion.nav>

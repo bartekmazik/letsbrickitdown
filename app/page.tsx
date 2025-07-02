@@ -13,21 +13,11 @@ export const metadata: Metadata = {
 const Homepage = () => {
   return (
     <section>
-      <div className="snap-end ">
-        <Hero />
-      </div>
-      <div className="snap-end">
-        <About />
-      </div>
-      <div className="snap-end ">
-        <Location />
-      </div>
-      <div className="snap-end ">
-        <Partners />
-      </div>
-      <div className="snap-end ">
-        <Footer />
-      </div>
+      <Hero />
+      <About />
+      <Location />
+      <Partners />
+      <Footer />
     </section>
   );
 };

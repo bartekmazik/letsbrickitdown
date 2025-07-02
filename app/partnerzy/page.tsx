@@ -22,16 +22,16 @@ async function Partnerzy() {
         <h1 className="text-3xl sm:text-5xl text-black pb-6 sm:pb-10 sm:px-6 sm:pt-6">
           PARTNERZY
         </h1>
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex flex-wrap flex-col sm:flex-row justify-center items-center gap-8">
           {data.map((partner, i) => (
             <div
               key={i}
-              className="p-4 bg-white   flex items-center justify-center"
+              className="p-4 bg-white sm:w-1/3 w-full   flex items-center justify-center"
             >
               <Image
                 src={partner.imageUrl}
                 alt={partner.imageAlt}
-                className="object-contain max-w-[20vw] h-[300px] w-auto "
+                className="object-contain w-full   h-[30vh] sm:h-[20vh]  "
                 width={0}
                 height={0}
                 sizes="100vw"
