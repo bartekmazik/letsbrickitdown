@@ -14,7 +14,7 @@ async function Partners() {
     <div className="min-h-[90vh] bg-purpleprimary w-screen p-8 sm:p-12">
       <h2 className="text-4xl mb-8">PARTNERZY STRATEGICZNI</h2>
       <div className="drop-shadow-big bg-white border-4 border-black mb-12">
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8">
           {data
             .filter((partner) => partner.type === "strategic")
             .map((partner, i) => (
@@ -25,7 +25,7 @@ async function Partners() {
                 <Image
                   src={partner.imageUrl}
                   alt={partner.imageAlt}
-                  className="object-contain w-[20vw] h-[300px]  "
+                  className="object-contain w-full sm:w-[20vw] h-[300px]  "
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -36,7 +36,7 @@ async function Partners() {
       </div>
       <h2 className="text-4xl mb-8">PARTNERZY WYDARZENIA</h2>
       <div className="drop-shadow-big bg-white border-4 border-black mb-12">
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8">
           {data
             .filter((partner) => partner.type === "normal")
             .map((partner, i) => (
@@ -47,7 +47,7 @@ async function Partners() {
                 <Image
                   src={partner.imageUrl}
                   alt={partner.imageAlt}
-                  className="object-contain w-[20vw] h-[300px]  "
+                  className="object-contain w-full sm:w-[20vw] h-[300px]  "
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -58,7 +58,7 @@ async function Partners() {
       </div>{" "}
       <h2 className="text-4xl mb-8">PARTNERZY MEDIALNI</h2>
       <div className="drop-shadow-big bg-white border-4 border-black mb-12">
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8">
           {data
             .filter((partner) => partner.type === "medial")
             .map((partner, i) => (
@@ -69,7 +69,7 @@ async function Partners() {
                 <Image
                   src={partner.imageUrl}
                   alt={partner.imageAlt}
-                  className="object-contain w-[20vw] h-[300px]  "
+                  className="object-contain w-full sm:w-[20vw] h-[300px]  "
                   width={0}
                   height={0}
                   sizes="100vw"

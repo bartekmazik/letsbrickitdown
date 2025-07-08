@@ -17,21 +17,21 @@ async function Regulamin() {
           <a
             href="/docs/zgoda.pdf"
             target="_blank"
-            className="border-4 min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
+            className="border-4 min-w-full sm:min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
           >
             Zgoda opiekuna na udział w wydarzeniu
           </a>
           <a
             href="/docs/regulamin.pdf"
             target="_blank"
-            className="border-4 min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
+            className="border-4 min-w-full sm:min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
           >
             Regulamin wydarzenia
           </a>
           <a
             href="/docs/rodo.pdf"
             target="_blank"
-            className="border-4 min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
+            className="border-4 min-w-full sm:min-w-1/3 bg-white border-black drop-shadow-small p-4 hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
           >
             Klauzula RODO
           </a>
