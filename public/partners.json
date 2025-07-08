@@ -3,18 +3,60 @@
     "name": "1000 klocków",
     "imageUrl": "/partners/1000klocków.png",
     "imageAlt": "Logo 1000 klockow",
-    "isStrategicPartner": false
+    "type": "strategic"
   },
   {
     "name": "UE Katowice",
     "imageUrl": "/partners/uekat.png",
     "imageAlt": "Logo UE Katowice",
-    "isStrategicPartner": false
+    "type": "medial"
   },
   {
     "name": "Miasto Katowice",
     "imageUrl": "/partners/miastokatowice.png",
     "imageAlt": "Logo patronatu miasta Katowice",
-    "isStrategicPartner": false
+    "type": "medial"
+  },
+  {
+    "name": "Antykawiarnia",
+    "imageUrl": "/partners/antykawiarnia.jpg",
+    "imageAlt": "Logo Antykawiarni",
+    "type": "normal"
+  },
+  {
+    "name": "AS Radio",
+    "imageUrl": "/partners/asradio.png",
+    "imageAlt": "Logo AS Radio",
+    "type": "medial"
+  },
+  {
+    "name": "Bricks & Figs",
+    "imageUrl": "/partners/bf.png",
+    "imageAlt": "Logo Bricks & Figs",
+    "type": "normal"
+  },
+  {
+    "name": "The Cinnamon",
+    "imageUrl": "/partners/cinnamon.png",
+    "imageAlt": "Logo The Cinnamon",
+    "type": "normal"
+  },
+  {
+    "name": "Pizzatopia",
+    "imageUrl": "/partners/pizzatopia.svg",
+    "imageAlt": "Logo Pizzatopii",
+    "type": "normal"
+  },
+  {
+    "name": "Radio Katowice",
+    "imageUrl": "/partners/radiokatowice.png",
+    "imageAlt": "Logo Radio Katowice",
+    "type": "medial"
+  },
+  {
+    "name": "Swiat w Budowie",
+    "imageUrl": "/partners/swiatwbudowie.png",
+    "imageAlt": "Logo Swiat w Budowie",
+    "type": "strategic"
   }
 ]

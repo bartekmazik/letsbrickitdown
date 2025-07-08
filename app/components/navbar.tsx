@@ -55,11 +55,11 @@ const Sidebar = ({ setIsOpen }: { setIsOpen: (value: boolean) => void }) => {
           O nas
         </Link>
         <Link
-          href="/partnerzy"
+          href="/regulamin"
           onClick={() => setIsOpen(false)}
           className="transition duration-200 hover:text-yellowprimary"
         >
-          Partnerzy
+          Regulamin
         </Link>
         <Link
           href="/kontakt"
@@ -103,10 +103,10 @@ const Navbar = () => {
           O nas
         </Link>
         <Link
-          href="/partnerzy"
+          href="/regulamin"
           className="transition duration-200 hover:text-yellowstrong"
         >
-          Partnerzy
+          Regulamin
         </Link>
         <Link
           href="/kontakt"

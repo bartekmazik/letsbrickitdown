@@ -38,10 +38,10 @@ const Footer = () => {
           O nas
         </Link>
         <Link
-          href="/partnerzy"
+          href="/regulamin"
           className="transition duration-200 hover:text-gray-800"
         >
-          Partnerzy
+          Regulamin
         </Link>
         <Link
           href="/kontakt"

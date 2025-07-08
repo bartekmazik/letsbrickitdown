@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="min-h-screen sm:min-h-[90vh]  sm:h-[90vh] w-screen border-b-4  flex flex-col justify-between ">
       <div className="border-b-4 p-8 py-18 sm:py-auto sm:p-12 h-1/2 flex flex-col bg-yellowprimary  gap-10">
-        <h1 className="text-4xl  ">WYDARZENIE</h1>
+        <h2 className="text-4xl  ">WYDARZENIE</h2>
         <p className="text-md font-thin pb-4 overflow-hidden break-words">
           <strong className="font-semibold">„Let’s Brick It Down!”</strong>
           {` to wyjątkowy projekt, który  ma pokazać, że klocki to coś więcej niż tylko zabawa - to także narzędzie do nauki, inspiracja do działania i możliwości rozwoju własnego biznesu.
